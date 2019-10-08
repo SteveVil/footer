@@ -1,0 +1,52 @@
+{
+  "name": "c",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://stevevil.github.io/react",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "classnames": "2.2.6",
+    "gh-pages": "^2.1.1",
+    "jquery": "3.4.1",
+    "node-sass": "4.12.0",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-scripts": "3.2.0",
+    "react-scroll-up-button": "1.6.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveVil/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveVil/react/issues"
+  }
+}
